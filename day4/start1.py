@@ -5,7 +5,7 @@
 #person_who_will_pay_bill = names[random_choice]
 #print(person_who_will_pay_bill + " is buy a meal for evryone")
 import random
-name_string=input("enter your name by commas ? ")
+name_string = input("enter your name by commas ? ")
 name = name_string.split(" , ")
-person_who_will_pay_bill =random.choice (name)
+person_who_will_pay_bill = random.choice(name)
 print(person_who_will_pay_bill + " give you a treat ")
